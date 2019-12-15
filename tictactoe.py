@@ -23,7 +23,7 @@ class Game(object):
         self.top_frame.pack(side=tkinter.TOP)
 
         # add restart button on top frame
-        restart_button = tkinter.Button(self.top_frame, text='Restart', width=20,
+        restart_button = tkinter.Button(self.top_frame, text='New Game', width=20,
                                         command=self.restart)
         restart_button.pack()  # register restart_button with geometry manager
 
