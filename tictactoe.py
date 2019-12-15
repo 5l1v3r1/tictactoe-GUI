@@ -8,7 +8,7 @@ class Game(object):
     """
     block_size = 100
     def __init__(self, parent):
-        parent.title('Tic Tac Toe')
+        parent.title('TicTacToe')
         self.parent = parent
 
         self.initialize_game()
